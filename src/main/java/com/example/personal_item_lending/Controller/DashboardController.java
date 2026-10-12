@@ -17,7 +17,10 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/dashboard")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://personal-item-lending-frontend.onrender.com"
+})
 public class DashboardController {
 
     private final ItemRepository itemRepository;
