@@ -1,0 +1,58 @@
+# React frontend
+node_modules/
+dist/
+
+# Maven / Spring Boot backend
+**/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDEs
+.idea/
+.vscode/
+*.iws
+*.iml
+*.ipr
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.apt_generated/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Build output
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Logs
+*.log
+
+# Local database files and backups
+*.sql
+*.sql.gz
+*.dump
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Generated helper file
+HELP.md
